@@ -13,8 +13,7 @@ fn main() {
     let x = x / 2;
     println!("The answer is {}", x);
     //let n :i8,i16,i32,i64,i128, isize, usize, u8,u16,u32,u64,u128
-    let unit_literal: () = ();
-    println!("{:?}", unit_literal); //prints () on console
+    let _unit_literal: () = ();
     let println_result = println!("Generates unit literal as a reuslt");
     println!("{:?}", println_result); //prints () on console
                                       /*
